@@ -3,7 +3,7 @@ import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import { updateProfile } from "firebase/auth";
 
-
+//Will prompt a form
 function EditProfile() {
   const [user, setUser] = useState(null);
   const [name, setName] = useState("");
